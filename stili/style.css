@@ -1,0 +1,35 @@
+:root {
+    --site-font: 16px;
+    --font-color: rgb(255, 0, 0);
+    --client-theme: #e77300;
+
+    /* font-size: var(--site-font); */
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* height: 100%; */
+
+    & body {
+        /* height: 100%; */
+
+        & .btnDarkMode{
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 2%;    
+            border-radius: 4px;
+            background: #121212;
+            color: white;        
+        }
+    }
+}
+
+.darkMode{
+    background: #121212;
+    color: white;
+}
