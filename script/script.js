@@ -30,6 +30,7 @@ function toggleDarkMode() {
     let body = document.getElementsByTagName("body")[0];
 
     body.classList.toggle("darkMode");
+    
     if (body.classList.contains("darkMode")) {
         btn.innerHTML = " ☼ ";
     }else {
