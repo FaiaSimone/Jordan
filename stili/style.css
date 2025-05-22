@@ -33,3 +33,14 @@ html {
     background: #121212;
     color: white;
 }
+
+.custom-color:not(.collapsed){
+    color: red ;
+}
+.custom-font-accordion:not(.collapsed){
+    font-size: 16px;
+    font-family: Poppins;
+}
+.custom-margin-accordion:not(.collapsed){
+    margin-left: 0.5rem;
+}
