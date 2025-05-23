@@ -44,3 +44,7 @@ html {
 .custom-margin-accordion:not(.collapsed){
     margin-left: 0.5rem;
 }
+
+a:hover{
+    scale: 1.2;
+}
